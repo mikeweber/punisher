@@ -20,8 +20,15 @@ can be installed with bundler.
 
 # Usage
 
-Pass in the number of jokes to train against, and the number of jokes generate, just for you!
-The following example will generate 10 jokes based on 100 existing jokes
+Start by training the system. To avoid overloading the API, it is suggested to only
+train 100 jokes or less at a time. The trainings are additive, so each training session
+will add to the previous session.
 ```
-  $ ruby punisher.rb new 100 10
+  $ ruby punisher.rb train 5
+```
+
+Once the system has been trained, you can generate a joke (or multiple at once) by
+specifying how many jokes to make.
+```
+  $ ruby punisher.rb joke 10
 ```

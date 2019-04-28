@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/mikeweber/markov_chain
-  revision: f71e87ca46e364b179619d2e001558add72052bf
+  revision: 44f33a812c1a9a6c5e244a029acea890fec9bd83
   specs:
-    markov_chain (0.4.0)
+    markov_chain (0.5.0)
 
 GEM
   remote: https://rubygems.org/
